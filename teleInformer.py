@@ -4,7 +4,7 @@ import requests
 class TeleInformer:
 
     def __init__(self, chat_id, token):
-        self.baseurl = "https://api.telegram.org/"
+        self.baseurl = "https://api.telegram.org/bot"
         self.chat_id = chat_id
         self.token = token
 
